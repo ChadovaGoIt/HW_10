@@ -1,0 +1,34 @@
+    1  git config --global user.name "Iryna Chadova"
+    2  git config --global user.email irinasubbota8@gmail.com
+    3  git clone https://github.com/ChadovaGoIt/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git add.
+    9  git add .
+   10  nano .gitignore
+   11  git status
+   12  gid add .
+   13  git add .
+   14  git commit -m "Text created"
+   15  touch main_test.txt
+   16  git add .
+   17  git commit -m "Main_test created"
+   18  git checkout -b develop
+   19  git checkout develop
+   20  touch develop_test.txt
+   21  git add develop_text.txt
+   22  git commit -b "No files"
+   23  $ git commit -m "No files"
+   24   git commit -m "No files"
+   25  nano develop_test.txt
+   26  git status
+   27  git add .
+   28  git add develop_test.txt
+   29   git commit -m "Develop_test created"
+   30  git checkout main
+   31  git merge develop
+   32  got log
+   33  git log
+   34  history > command_list.csv
